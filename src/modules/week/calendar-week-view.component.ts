@@ -60,7 +60,7 @@ export interface CalendarWeekViewBeforeRenderEvent {
         (eventDropped)="eventTimesChanged.emit($event)">
       </mwl-calendar-week-view-header>
       <div *ngFor="let eventRow of view.eventRows; trackBy:trackByIndex" #eventRowContainer class="cal-events-row">
-        before!<div
+        before!!<div
           *ngFor="let weekEvent of eventRow.row; trackBy:trackByEventId"
           #event
           class="cal-event-container"
