@@ -23,4 +23,5 @@ import { CalendarAngularDateFormatter } from './calendar-angular-date-formatter.
  * }]
  * ```
  */
-export declare class CalendarDateFormatter extends CalendarAngularDateFormatter {}
+export declare class CalendarDateFormatter extends CalendarAngularDateFormatter {
+}

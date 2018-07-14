@@ -8,8 +8,8 @@ import { CalendarDateFormatter } from './calendar-date-formatter.provider';
  * ```
  */
 export declare class CalendarDatePipe implements PipeTransform {
-  private dateFormatter;
-  private locale;
-  constructor(dateFormatter: CalendarDateFormatter, locale: string);
-  transform(date: Date, method: string, locale?: string): string;
+    private dateFormatter;
+    private locale;
+    constructor(dateFormatter: CalendarDateFormatter, locale: string);
+    transform(date: Date, method: string, locale?: string): string;
 }

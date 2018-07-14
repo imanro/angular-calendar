@@ -20,5 +20,5 @@ export * from './day/calendar-day.module';
  *
  */
 export declare class CalendarModule {
-  static forRoot(config?: CalendarModuleConfig): ModuleWithProviders;
+    static forRoot(config?: CalendarModuleConfig): ModuleWithProviders;
 }

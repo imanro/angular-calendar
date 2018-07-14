@@ -82,6 +82,9 @@
   ],
   "author": "Matt Lewis",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/mattlewis92/angular-calendar/issues"

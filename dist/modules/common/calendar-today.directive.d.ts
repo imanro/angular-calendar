@@ -11,16 +11,16 @@ import { EventEmitter } from '@angular/core';
  * ```
  */
 export declare class CalendarTodayDirective {
-  /**
-   * The current view date
-   */
-  viewDate: Date;
-  /**
-   * Called when the view date is changed
-   */
-  viewDateChange: EventEmitter<Date>;
-  /**
-   * @hidden
-   */
-  onClick(): void;
+    /**
+     * The current view date
+     */
+    viewDate: Date;
+    /**
+     * Called when the view date is changed
+     */
+    viewDateChange: EventEmitter<Date>;
+    /**
+     * @hidden
+     */
+    onClick(): void;
 }

@@ -24,6 +24,9 @@
   ],
   "author": "Matt Lewis",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "main": "bundles/angular-calendar.umd.js",
   "bugs": {
     "url": "https://github.com/mattlewis92/angular-calendar/issues"
