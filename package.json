@@ -1,5 +1,5 @@
 {
-  "name": "angular-calendar",
+  "name": "angular-calendar-imanro",
   "version": "0.25.3",
   "description": "A calendar component for angular 6.0+ that can display events on a month, week or day view",
   "scripts": {
